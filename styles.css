@@ -1,0 +1,51 @@
+/* Estilos de dark mode */
+body {
+    background-color: #191919;
+    color: #ffffff;
+    margin: 0; /* Elimina los márgenes del cuerpo */
+}
+.card {
+    background-color: #212529;
+    border: 1px solid #444;
+    color: #ffffff; /* Color del texto en el modo oscuro */
+    margin-bottom: 20px; /* Espacio entre los cuadros */
+}
+.card-header {
+    background-color: #343a40;
+    border-bottom: 1px solid #444;
+}
+/* Estilo para el elemento <p> de la fecha */
+.fecha p {
+    color: gray;
+    font-style: italic;
+    font-size: 6pt;
+}
+
+.valorMedio {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 10pt;
+    padding-bottom: 0px;
+}
+/* Estilo para la flecha */
+.flecha {
+    font-size: 14pt;
+}
+.flecha.up {
+    color: green;
+}
+.flecha.down {
+    color: red;
+}
+/* Estilo para los títulos */
+.titulo {
+    font-size: 8pt;
+}
+/* Estilo para la variación */
+.variacion {
+    color: inherit; /* Usa el color heredado (verde o rojo) */
+}
+
+h3 {
+    font-size: 18px; /* Cambia el valor según tus preferencias */
+}
